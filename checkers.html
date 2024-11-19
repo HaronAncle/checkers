@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="checkers_css.css" />
+    <script src="scripts/page_controller.js" defer></script>
+    <script src="scripts/checkers.js" defer></script>
+    <script src="scripts/bot_easy.js" defer></script>
+    <script src="scripts/bot_normal.js" defer></script>
+    <script src="scripts/bot_hard.js" defer></script>
+    <title>Checkers</title>
+  </head>
+  <body>
+    <div id="home"><img src="materials/icons/home_ico.png" width="53px" height="53px" /></div>
+    <div id="settings"><img src="materials/icons/settings_ico.png" width="53px" height="53px" /></div>
+    <div id="main_menu">
+      <div id="name">CHECKERS</div>
+      <br />
+      <br />
+      <div id="ico"></div>
+      <br />
+      <br />
+      <div id="play"><img src="materials/icons/play_ico.png" width="40px" height="45px" /> Играть</div>
+      <br />
+      <div id="rules"><img src="materials/icons/book_ico.png" width="40px" height="45px" /> Правила</div>
+    </div>
+    <div id="rules_text">
+      <div id="message_box">
+        <div id="message">
+          <div id="topic">Правила</div>
+          <div id="message_text">
+            Для игры используется игровая доска 8х8, всего 64 клетки. Каждому игроку принадлежит 12 простых шашек. Простые шашки ходят только вперёд на следующее поле на одну
+            клетку. Дамки могут ходить и вперёд, и назад на одну клетку по всем возможным диагоналям. При наличии нескольких вариантов боя не обязательно брать последовательность с
+            наибольшим кол-вом шашек, но должны быть биты все шашки в этой последовательности. Простая шашка становится дамкой только на следующем ходу, если предыдущий завершился
+            на поле превращения.
+          </div>
+          <div id="message_ok">OK</div>
+        </div>
+      </div>
+    </div>
+    <div id="game_mode">
+      <div id="game_mode_topic">С кем играть</div>
+      <div id="game_mode_modes">
+        <div id="game_mode_bot"><img src="materials/icons/game_mode_bot.png" width="60px" height="60px" /> <span class="color-white"> f</span>C ботом</div>
+        <div id="game_mode_person"><img src="materials/icons/game_mode_person.png" width="60px" height="60px" /><span class="color-white"> f</span> С другом</div>
+      </div>
+    </div>
+    <div id="options">
+      <div id="options_topic">Настройки</div>
+      <div class="block">
+        <div class="options_title"><img src="materials/icons/difficult.png" width="50px" height="55px" /> Сложность</div>
+        <div id="difficult">
+          <div id="difficult_less"><img class="options_button" src="materials/icons/difficult_less.png" /></div>
+          <div id="view_difficult">Нормально</div>
+          <div id="difficult_larger"><img class="options_button" src="materials/icons/difficult_large.png" /></div>
+        </div>
+      </div>
+      <div class="block-1">
+        <div class="options_title">Цвет фигур</div>
+        <div id="colors">
+          <div id="color_random"><img src="materials/icons/random_checkers.png" width="100%" height="100%" /></div>
+          <div id="color_white"><img src="materials/icons/white_checkers.png" width="100%" height="100%" /></div>
+          <div id="color_black"><img src="materials/icons/black_checkers.png" width="100%" height="100%" /></div>
+        </div>
+      </div>
+
+      <div id="start">Начать</div>
+    </div>
+    <div id="checkers">
+      <div id="return"><img src="materials/icons/return_ico.png" width="53px" height="53px" /></div>
+      <div id="help"><img src="materials/icons/bulb_ico.png" width="53px" height="53px" /></div>
+      <div id="restart"><img src="materials/icons/restart_ico.png" width="53px" height="53px" /></div>
+      <div id="current_difficult"></div>
+      <div id="play_area"></div>
+      <div id="white_count"></div>
+      <div id="black_count"></div>
+    </div>
+
+    <div id="setting_mode"></div>
+    <div id="play_message"></div>
+  </body>
+</html>

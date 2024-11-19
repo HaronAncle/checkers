@@ -1,0 +1,28 @@
+                  let k = i;
+                  while (k - 7 > 0 && (k - 7) / 8 != k / 8) {
+                    if (cells_info[k - 7] == 0) {
+                      addPotention(k - 7);
+                      k -= 7;
+                    } else break;
+                  }
+                  k = i;
+                  while (k - 9 > 0 && (k - 9) / 8 != k / 8) {
+                    if (cells_info[k - 9] == 0) {
+                      addPotention(k - 9);
+                      k -= 9;
+                    } else break;
+                  }
+                  k = i;
+                  while (k + 9 < 64 && (k + 9) / 8 != k / 8) {
+                    if (cells_info[k + 9] == 0) {
+                      addPotention(k + 9);
+                      k += 9;
+                    } else break;
+                  }
+                  k = i;
+                  while (k + 7 < 64 && (k + 7) / 8 != k / 8) {
+                    if (cells_info[k + 7] == 0) {
+                      addPotention(k + 7);
+                      k += 7;
+                    } else break;
+                  }
