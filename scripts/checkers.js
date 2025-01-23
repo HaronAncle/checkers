@@ -16,6 +16,7 @@ let white_count = 12,
   black_count = 12;
 //new comment 2
 //new comment delete
+//new comment added
 let nessesary_eat_list2 = [];
 function restart() {
   if (game_mode == 1) BotAI();
