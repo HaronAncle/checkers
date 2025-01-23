@@ -13,7 +13,7 @@ let nessesary_eat_list = [];
 let cells;
 let white_count = 12,
   black_count = 12;
-///
+
 ///
 ///
 function restart() {
