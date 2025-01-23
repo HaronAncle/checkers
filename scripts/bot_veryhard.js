@@ -1,11 +1,9 @@
 function BotTurnVeryHard() {
   if (nessesary_eat) {
-    //ход если бить надо
-    let temp1 = nessesary_eat_list[0][nessesary_eat_list[0].length - 1]; //позиция, на которую перемещается шашка
+    let temp1 = nessesary_eat_list[0][nessesary_eat_list[0].length - 1];
     let x = setTimeout(imitate_click(temp1), 100);
   } else {
-    //ход без необходимого битья
-    let temp_bot_positions_list = []; //генерирует информацию о местоположении шашек
+    let temp_bot_positions_list = [];
     for (let i = 1; i < 64; i++) {
       if (cells_info[i] == bot_color || cells_info[i] == bot_color + 2) {
         temp_bot_positions_list.push(i);
