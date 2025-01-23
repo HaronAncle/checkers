@@ -13,9 +13,9 @@ let nessesary_eat_list = [];
 let cells;
 let white_count = 12,
   black_count = 12;
-
-///
-///
+/// new comment
+/// new comment
+/// new comment
 function restart() {
   if (game_mode == 1) BotAI();
   else {
