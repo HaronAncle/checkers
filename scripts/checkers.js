@@ -7,16 +7,16 @@ for (let x = 0; x < 64; x++) {
 }
 let current_cheker = -1;
 let potention_cells = [];
-// 111111
+let potention_cells_add = []; //new func
 let current_player = 1; //1-white, 2-black
 let nessesary_eat = false;
 let nessesary_eat_list = [];
 let cells;
 let white_count = 12,
   black_count = 12;
-///
-///
-///
+/// new comment
+/// new comment
+/// new comment
 function restart() {
   if (game_mode == 1) BotAI();
   else {
