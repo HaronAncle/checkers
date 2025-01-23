@@ -7,6 +7,7 @@ for (let x = 0; x < 64; x++) {
 }
 let current_cheker = -1;
 let potention_cells = [];
+// 111111
 let current_player = 1; //1-white, 2-black
 let nessesary_eat = false;
 let nessesary_eat_list = [];
