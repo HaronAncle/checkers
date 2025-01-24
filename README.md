@@ -1,4 +1,4 @@
 # checkers
 
-kkkk
-cgfhguhiujoko
+readme file
+our licence
